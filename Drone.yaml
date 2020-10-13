@@ -20,5 +20,5 @@ steps:
     password:
       from_secret: docker_password
     repo: mimaurer/dronetest
-    tags: [ "v1", "latest" ]
+    tags: [ "v1" ]
     auto_tag_suffix: drone-build
